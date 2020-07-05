@@ -42,7 +42,7 @@ public class InfiniteArray {
 
 		for (int i = 0; i < (arr2.length / 2); i++) {
 			arr2[i * 2] = arr1[i];		// arr1의 index에 있는 값을 index*2로 이동
-			arr2[(i * 2) + 1] = 5 * i;	// 나머지 자리는 index * 3으로 채워넣음
+			arr2[(i * 2) + 1] = 5 * i;	// 나머지 자리는 index * 5으로 채워넣음
 		}
 
 		System.out.println();
