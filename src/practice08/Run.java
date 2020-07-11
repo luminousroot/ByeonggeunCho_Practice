@@ -35,28 +35,30 @@
 //	4. 남은 금액 출력
 //
 //Product <<abstract>>
-//-price: int		// 제품가격
-//+measureSize(): String {abstract}	// 제품 사이즈 특성
-//+toString():String	// 제품명 반환
+//-price: int							// 제품가격
+//+measureSize(): String {abstract}		// 제품 사이즈 특성
+//+toString():String					// 제품명 반환
 //
 //Audio (Product 상속)
-//+Audio()	// 가격(300) 설정
-//+measureSize()	// 제품 사이즈 특성(200 x 200 x 150) 설정
-//+toString()		// 제품명(오디오) 설정
+//+Audio()								// 가격(300) 설정
+//+measureSize():String					// 제품 사이즈 특성(200 x 200 x 150) 설정
+//+toString():String					// 제품명(오디오) 설정
 //
 //Computer (Product 상속)
-//+Computer()	// 가격(400) 설정
-//+measureSize()	// 제품 사이즈 특성(1600 x 900) 설정
-//+toString()		// 제품명(컴퓨터) 설정
+//+Computer()							// 가격(400) 설정
+//+measureSize():String					// 제품 사이즈 특성(1600 x 900) 설정
+//+toString():String					// 제품명(컴퓨터) 설정
 //
 //Audio (Product 상속)
-//+Tv()		// 가격(600) 설정
-//+measureSize()	// 제품 사이즈 특성(50인치) 설정
-//+toString()		// 제품명(텔레비전) 설정
+//+Tv()									// 가격(600) 설정
+//+measureSize():String					// 제품 사이즈 특성(50인치) 설정
+//+toString():String					// 제품명(텔레비전) 설정
 //
-//  => 구매시도 내역 예시
+//  => Run 클래스에서 구매 시도할 내역
 //  	Tv Computer Tv Audio Computer Computer Computer Audio
+// 
 //=> 출력 예시
+//
 //잔액이 부족하여 컴퓨터을(를) 살 수 없습니다.
 //잔액이 부족하여 컴퓨터을(를) 살 수 없습니다.
 //잔액이 부족하여 컴퓨터을(를) 살 수 없습니다.
