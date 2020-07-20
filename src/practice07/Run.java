@@ -43,7 +43,7 @@
 //	iCan.sellItem(): 	1000
 //	iCan.shakeItem(): 	캔을 흔들었습니다.
 //	열면 폭발할 것 같아요!
-//	iCan.openItem(): 	캔을 열었습니다.
+//	iCan.openIt em(): 	캔을 열었습니다.
 //	맛있는 참치가 들어있네요!
 //	
 //	문은 떼다 팔 수 없습니다.

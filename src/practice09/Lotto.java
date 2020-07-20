@@ -1,4 +1,4 @@
-package practice09;
+ package practice09;
 
 import java.util.Collections;
 import java.util.Iterator;
@@ -11,13 +11,19 @@ public class Lotto {
 		int[] lotto = new int[6];
 
 		// 첫 번째 값은 중복될 가능성이 없음
-		lotto[0] = ((int) (Math.random() * 45)) + 1;
+//		lotto[0] = ((int) (Math.random() * 45)) + 1;
+//		절대 틀리지 말자!!
 		
-		for (int i = 1; i < lotto.length; i++) {
+		for (int i = 0; i < lotto.length; i++) {
+			lotto[i] = (int)(Math.random() * 45) + 1;
 			for (int j = 0; j < i; j++) {
-				lotto[i] = (int)(Math.random() * 45) + 1;
+				
+				System.out.print("i: " + i + "   lotto[i]: " + lotto[i]);
+				System.out.println("    j: " + j + "   lotto[j]: " + lotto[j]);
+				
 				if (lotto[i] == lotto[j]) {
 					i--;
+					break;
 				}
 			}
 		}
