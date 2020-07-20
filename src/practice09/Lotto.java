@@ -12,7 +12,7 @@ public class Lotto {
 
 		// 첫 번째 값은 중복될 가능성이 없음
 //		lotto[0] = ((int) (Math.random() * 45)) + 1;
-//		절대 틀리지 말자!!
+//		
 		
 		for (int i = 0; i < lotto.length; i++) {
 			lotto[i] = (int)(Math.random() * 45) + 1;
